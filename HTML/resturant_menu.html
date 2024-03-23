@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .shortdes
+            {
+                font-size: 25px;
+                background-color: red;
+            }
+
+            .shortdes1
+            {
+                font-size: 25px;
+                background-color: rgba(54, 162, 224, 0.747);
+            }
+              
+            .head_img{
+                right: 0;
+                width: 20%;
+                height: 100px;
+                position: fixed;
+            }
+
+
+            #name {
+                color: rgb(0, 131, 253);
+                font-family: Algerian, serif;
+                font-size: 66px;
+                margin-left: 20px;
+                margin-top: 10px;
+                margin-bottom: 50px;
+            }
+
+            .for-form{
+                background-color: rgba(124, 245, 10, 0.863);
+            }
+
+        </style>
+        <title>
+            The Ratatoulia
+        </title>
+    </head>
+    <body>
+        <header style="background-color: rgb(32, 32, 32); ">
+            <div class="head_img">
+                <img src="F:\Codedex project\HTML\download.jpeg" alt="burgers">
+            </div>
+            <h1 id = "name">WELCOME to The Ratatoulia</h1>
+            <nav>
+                <a href="#menu" style="font-size: 50px; color: chocolate;">Menu</a> &nbsp; &nbsp;
+
+                <a href="#order" style="font-size: 50px; color: chocolate;">Order</a>
+            </nav>
+        </header>
+        <p class="shortdes">Welcome to our resturant. We server Burgers, pizza and all other fast foods. We also have an drink menu</p>
+        <main>
+            <section id="menu" >
+
+                
+                <h2 style ="color: black;">Menu</h2>
+
+                <div style="background-color: rgb(64, 102, 102);">
+                    <article>
+                        <h3>Chicken Burger</h3>
+                        <figure style="margin: 0;">
+                        <img src="https://www.recipetineats.com/wp-content/uploads/2017/07/Chicken-Burgers-4.jpg" alt="Chicken Burger" width="150">
+                        <figcaption><i>14.99$</i></figcaption>
+                        <p class="shortdes1">A chicken burger makes for a quick midweek meal or weekend BBQ’s with friends! Crispy seasoned chicken breast, topped with mandatory melted cheese, piled onto soft rolls with onion, avocado, lettuce, tomato and garlic mayo.</p>
+                        </figure>
+                    </article><br><hr width="80%"><br>
+                    <article>
+                        <h3>BBQ Pizza</h3>
+                        <figure style="margin: 0;">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs69jCz3YBZ4yyIS83Dz6QdwTkP3PzehgBYw&usqp=CAU" alt="BBq Pizza" width="200">
+                            <figcaption><i>19.99$</i></figcaption>
+                            <p class="shortdes1">This BBQ chicken pizza has spicy barbecue sauce, diced chicken, peppers, onion, and cilantro, all covered with cheese and baked to bubbly goodness! This is similar to a recipe I had at a popular pizza place in California. My family loves it!</p>
+                        </figure>
+                    </article><br><hr width="80%"><br>
+                    <article>
+                        <h3>Cold Coffee</h3>
+                        <figure style="margin: 0;">
+                            <img src="data:image/jpeg;base64,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" alt="cold coffee" width="200">
+                            <figcaption><i>10.99$</i></figcaption>
+                            <p class="shortdes1">Throw in a few ice cubes while blending for a frothy finish. This creamy, frothy drink is just the perfect indulgence on a hot summer day.</p>
+                        </figure>
+                    </article><br><hr width="80%"><br>
+                </div>
+            </section>
+        
+
+
+            <section id="order" >
+
+                <h2 style ="color: black;">Order</h2>
+                <form class="for-form">
+                    <h1>Proceed with order</h1>
+                    <label style="font-size: 20px;">Burgurs: </label><input type="number" min="0" max="10">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox"> Extra sauce &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <input type="checkbox"> Extra Cheese &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label>Spice level :</label><input type="radio" name="spice"> Normal
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="spice"> Naga
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="spice"> HOTTEST
+
+                    <br><br><br>
+
+                    <label style="font-size: 20px;">Pizza: </label><input type="number" min="0" max="10">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox"> Extra sauce &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <input type="checkbox"> Extra Cheese &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox"> Extra Toppings &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label>Size :</label><input type="radio" name="spice"> 7 inch
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="spice"> 9 inch
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="spice"> 12 inch
+                    <br><br><br>
+
+                    <label style="font-size: 20px;">Cold Coffee: </label><input type="number" min="0" max="10">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox"> Extra cold &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <input type="checkbox"> Extra Chocolate &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label>Size :</label><input type="radio" name="spice"> small
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="spice"> medium
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="spice"> large
+                    <br><br><br>
+
+                    <h4>Special Requests</h4>
+                    <textarea rows="7" cols="69" placeholder="Any special requests?"></textarea>
+                    <br><br><br>
+                    <input type="submit" value="Proceed to checkout">
+
+
+                    
+
+                
+                
+                </form>
+
+            </section>
+
+        </main>
+        <footer>
+            Made with love by @ridwanurra31653
+        </footer>
+
+
+    </body>
+</html>
