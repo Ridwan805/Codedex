@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color: rgb(0, 0, 0);  
+
+            }
+            header{
+                background-color: rgb(0, 0, 0);
+                height: 310px;
+                width: 100%;
+                text-align: center;
+                
+                            
+            }
+
+            #name
+            {
+                font-family: "yellow ginger", serif;
+                font-size: 30px;
+                margin: 0%;
+                background-image: none;
+                color: rgb(200, 255, 0);
+            }
+
+            #ormen{
+                font-size: 30px;
+            }
+            
+            .rows{
+                display: flex;
+            }
+
+
+            .card{
+                background-color: goldenrod;
+                height: 580px;
+                width: 30%;
+                margin-left:  35px;
+                margin-right: 20px;
+            }
+
+            
+
+            .food{
+               font-family: 'Baguette', serif;
+               font-size: 40px;   
+            }
+            .foodcaption{
+                font-family: 'battlesbridge demo', serif;
+                font-size: 20px;
+            }
+            h2{
+                color: aliceblue;
+            }
+
+            .descr{
+                font-family: "yellow ginger", serif;
+                font-size: 12px ;
+                color: aliceblue;
+                
+            }
+
+            .mincard{
+                background-color: rgb(39, 13, 13);
+                height: 180px;
+                width: 95%;
+                margin-left:  15px;
+                margin-right: 30px;
+            }
+            #frorder{
+                background-color: chartreuse;
+                width: 85%;
+                height: 700px ;
+                margin-left: 8%;
+                margin-right: 10%;
+                
+            }
+            #forlabelling{
+                font-size: 20px;
+                text-align: left;
+                margin-left: 60px;
+            }
+            .card2{
+                background-color: rgb(101, 202, 0);
+                height: 300px;
+                width: 20%;
+                margin-left:  140px ;
+                margin-right: 20px;
+                margin-top: 25px;
+            }
+            .left{
+                margin-left: 20px;
+            }
+           
+
+            
+        </style>
+        <title>THE Burger Palace</title>
+    </head>
+    <body>
+      <header >
+
+        <h1 id = "name" >THE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BURGER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PLACE</h1> 
+        <p>
+            <img src="Fires.png" alt="burger" width="100">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="burger.png" alt="burger" width="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            <img src="coffee.png" alt="burger" width="100">
+        </p> 
+        <nav>
+            <p>
+             <div class="rows" id="ormen">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div align = "left" >
+                    <a href="#menu" style="color: chocolate;">Menu</a>
+                </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div align = "right">
+                    <a href="#order" style="color: chocolate;">Order</a>
+                </div>
+             </div>
+            </p>
+        </nav>   
+      </header>
+      <br>
+
+      <main>
+
+        <section id="menu">
+            <h2 align="center" style="font-size: 45px;">The Menu</h2>
+            
+            
+                <div class = "rows" > 
+
+                    <article class="card" id=>       
+                        <h3 class="food" align="center"><b>Veggie Burger<hr width="75%" color="black"></b></h3> 
+                        <figure align="center">
+                        <img src="Veggie burger.png" alt="VB" width="50%"> 
+                        <figcaption >120 TK</figcaption>
+                        </figure> 
+                        <hr color="black" width="85">
+                        <div class="mincard">
+                            <p align="center" class="descr">
+                            Savor our Veggie Burger—a delicious blend of beans, grains, and veggies, grilled to perfection for a crunchy exterior and juicy interior. Topped with crisp lettuce, ripe tomatoes, and crunchy onions on a toasted bun, it's a symphony of flavors and textures. Customize with your favorite condiments for a personalized touch. Whether you're a devoted vegetarian or just craving a delectable burger, our Veggie Burger promises a satisfying experience in every bite. Taste the goodness today and treat yourself to a veggie delight that's sure to please!</p> 
+                        </div>
+                    </article>
+
+                    <article class="card" >       
+                        <h3 class="food" align="center"><b>Chicken Burger<hr width="75%" color="black"></b></h3> 
+                        <figure align="center">
+                        <img src="Chicken burger.png" alt="CB" width="50%"> 
+                        <figcaption >140 TK</figcaption>
+                        </figure> 
+                        <hr color="black" width="85"> 
+                        <div class="mincard">
+                          <p align="center" class="descr">Our signature Chicken Burger features a succulent, seasoned chicken patty nestled between soft buns. Grilled to perfection and bursting with flavor, it's a delightful blend of juicy meat and savory spices. Topped with crisp lettuce, ripe tomatoes, and zesty pickles, and served with your choice of condiments, it's a mouthwatering option that will satisfy any craving</p>                    
+                        </div> 
+                    </article> 
+
+                    <article class="card" >       
+                        <h3 class="food" align="center"><b>Beef Burger<hr width="75%" color="black"></b></h3> 
+                        <figure align="center">
+                        <img src="Beef burger (1).png" alt="BB" width="50%"> 
+                        <figcaption >160 TK</figcaption>
+                        </figure> 
+                        <hr color="black" width="85">
+                        <div class="mincard">
+                            <p align="center" class="descr">Savor the classic taste of our Beef Burger, crafted with a premium beef patty cooked to juicy perfection. Seasoned to perfection, our burger offers a robust and savory flavor that's sure to delight your taste buds. Topped with fresh lettuce, ripe tomatoes, crunchy onions, and tangy pickles, it's a timeless favorite. Served on a toasted bun with your choice of condiments, it's the ultimate comfort food experience.</p>
+                        </div>
+                    </article>
+
+                </div> 
+                <br>
+
+
+                <div class = "rows"> 
+                    
+                    <article class="card" >       
+                        <h3 class="food" align="center"><b>Cheese Burger<hr width="75%" color="black"></b></h3> 
+                        <figure align="center">
+                        <img src="Veggie burger.png" alt="VB" width="50%"> 
+                        <figcaption >120 TK</figcaption>
+                        </figure> 
+                        <hr color="black" width="85"> 
+                        <div class="mincard">
+                            <p align="center" class="descr">
+                            Introducing our Cheese Burger, the epitome of cheesy indulgence! Sink your teeth into a juicy beef patty, grilled to perfection and topped with a generous layer of gooey melted cheese. Each bite is a symphony of savory flavors, enhanced by the creamy richness of the cheese. Nestled between soft, toasted buns and garnished with crisp lettuce, ripe tomatoes, and tangy pickles, it's a taste sensation that's impossible to resist. Customize it with your favorite condiments for a personal touch. Whether you're a cheese aficionado or simply craving a mouthwatering burger experience, our Cheese Burger is sure to satisfy your cravings and leave you craving more. Treat yourself to cheesy perfection today!</p>
+                        </div>
+                    </article>
+
+                    <article class="card" >       
+                        <h3 class="food" align="center"><b>HamBurger<hr width="75%" color="black"></b></h3> 
+                        <figure align="center">
+                        <img src="Chicken burger.png" alt="CB" width="50%"> 
+                        <figcaption >200 TK</figcaption>
+                        </figure> 
+                        <hr color="black" width="85"> 
+                        <div class="mincard">
+                            <p align="center" class="descr">Experience pure deliciousness with our Hamburger – a timeless classic that never fails to satisfy! Sink your teeth into a succulent beef patty, perfectly seasoned and grilled to juicy perfection. Nestled between soft, toasted buns, it's a symphony of flavors and textures waiting to be savored. Topped with crisp lettuce, ripe tomatoes, and tangy pickles, each bite is a mouthwatering delight. Customize it with your favorite condiments for a personalized touch. Whether you're craving a quick bite or a hearty meal, our Hamburger is the perfect choice. Bite into burger bliss today!</p>
+                        </div>
+                    </article> 
+
+                    <article class="card" >       
+                        <h3 class="food" align="center"><b>Double Decker Burger<hr width="75%" color="black"></b></h3> 
+                        <figure align="center">
+                            <img src="Beef burger (1).png" alt="BB" width="50%"> 
+                            <figcaption >280 TK</figcaption>
+                        </figure> 
+                        <hr color="black" width="85"> 
+                        <div class="mincard">
+                            <p align="center" class="descr">Introducing our Double Decker Burger – a feast for the senses that's twice as nice! Sink your teeth into not one, but two juicy beef patties, perfectly grilled to perfection and stacked high between three layers of soft, toasted buns. Each bite is a symphony of flavors, with the savory richness of the beef complemented by layers of melted cheese, crisp lettuce, ripe tomatoes, and tangy pickles. It's a mouthwatering masterpiece that's sure to leave you feeling satisfied and craving more. Customize it with your favorite condiments for an extra touch of flavor. Whether you're looking for a hearty meal or a decadent treat, our Double Decker Burger is guaranteed to hit the spot. Treat yourself to double the deliciousness today!</p>                    
+                        </div>
+                    </article>
+                </div> 
+                <br>
+                
+                <div class="rows" >
+                    <article class="card" >       
+                        <h3 class="food" align="center"><b>French Fries<hr width="75%" color="black"></b></h3> 
+                        <figure align="center">
+                            <img src="French fries.png" alt="Fries" width="50%"> 
+                            <figcaption >75 TK</figcaption>
+                        </figure> 
+                        <hr color="black" width="85"> 
+                        <div class="mincard">
+                            <p align="center" class="descr">Indulge in our mouthwatering French fries, perfectly golden and crispy on the outside, fluffy and tender on the inside. Each bite is a burst of flavor, seasoned to perfection and served piping hot for your enjoyment. Whether you're pairing them with one of our delicious burgers or enjoying them on their own, our French fries are sure to satisfy your cravings and leave you wanting more. So go ahead, treat yourself to a side of crispy perfection and elevate your meal to new heights of deliciousness!</p>                    
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <h3 class="food" align="center"><b>Chicken Nuggets<hr width="75%" color="black"></b></h3>
+                        <figure align="center">
+                            <img src="nuggets.png" alt="CN" width="50%">
+                            <figcaption>100 TK</figcaption>
+                        </figure>
+                        <hr color="black" width="85">
+                        <div class="mincard">
+                            <p align="center" class="descr">
+                                Delight in our Chicken Nuggets – bite-sized pieces of tender, juicy chicken, coated in a crispy, golden-brown batter. Each nugget is bursting with flavor, seasoned to perfection for a taste sensation you won't soon forget. Whether you're enjoying them as a snack, pairing them with your favorite dipping sauce, or adding them to a meal, our Chicken Nuggets are sure to satisfy your cravings and leave you wanting more. So go ahead, treat yourself to a deliciously crispy delight and experience chicken nuggets done right!
+                            </p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <h3 class="food" align="center"><b>Fish Fingers<hr width="75%" color="black"></b></h3>
+                        <figure align="center">
+                            <img src="fish finger.png" alt="fish fingers" width="50%">
+                            <figcaption>120 TK</figcaption>
+                        </figure>
+                        <hr width="85" color="black">
+                        <div class="mincard">
+                          <p align="center" class="descr">                           
+                            Dive into deliciousness with our Fish Fingers – golden-brown strips of flaky white fish, lightly breaded and fried to perfection. Each finger is a savory delight, with tender fish encased in a crispy coating that's sure to please your palate. Whether you're enjoying them as a snack, a side dish, or the star of your meal, our Fish Fingers are a flavorful choice for seafood lovers of all ages. Dip them in your favorite sauce or enjoy them as is for a satisfying crunch with every bite. So go ahead, indulge in the irresistible taste of our Fish Fingers and treat yourself to a seafood sensation today!
+                          </p>
+                        </div>
+                    </article>
+                    
+                </div>
+                <br>
+                <div class="rows">
+                    <article class="card">
+                        <h3 class="food" align="center"><b>Onion Rings<hr width="75%" color="black"></b></h3>
+                        <figure align="center">
+                            <img src="onion rings.png" alt="Onion rings" width="50%">
+                            <figcaption>130 TK</figcaption>
+                        </figure>
+                        <hr width="85" color="black">
+                        <div class="mincard">
+                          <p align="center" class="descr">                           
+                            Satisfy your craving for crunch with our irresistible Onion Rings – thick slices of sweet onion, coated in a crispy, golden batter and fried to perfection. Each ring is a symphony of flavors and textures, with a sweet and savory onion center encased in a crunchy, golden shell. Whether you're enjoying them as a side dish, a topping for your burger, or a standalone snack, our Onion Rings are sure to tantalize your taste buds and leave you craving more. So go ahead, indulge in the crispy goodness of our Onion Rings and experience a classic favorite done right!
+                          </p>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <h3 class="food" align="center"><b>Crispy Chicken<hr width="75%" color="black"></b></h3>
+                        <figure align="center">
+                            <img src="Crispy chiken.png" alt="Crispy" width="50%">
+                            <figcaption>145 TK</figcaption>
+                        </figure>
+                        <hr width="85" color="black">
+                        <div class="mincard">
+                          <p align="center" class="descr">                           
+                            Treat yourself to our Crispy Chicken – a mouthwatering delight that's sure to satisfy your craving for crunchy goodness! Sink your teeth into tender, juicy chicken, coated in a perfectly seasoned breading and fried to golden perfection. Each bite is a symphony of flavors, with the crispy exterior giving way to succulent, flavorful meat. Whether you're enjoying it as a standalone meal, pairing it with your favorite sides, or adding it to a sandwich, our Crispy Chicken promises a satisfying taste experience every time. So go ahead, indulge in the crispy, crunchy perfection of our Crispy Chicken and elevate your meal to new heights of deliciousness!
+                          </p>
+                        </div>
+                    </article>
+                </div>
+                <br>
+                
+                <div class="rows">
+                    <article class="card">
+                        <h3 class="food" align="center"><b>Iced Cold Coffee<hr width="75%" color="black"></b></h3>
+                        <figure align="center">
+                            <img src="cold coffe.png" alt="Cold coffee" width="50%">
+                            <figcaption>100 TK</figcaption>
+                        </figure>
+                        <hr width="85" color="black">
+                        <div class="mincard">
+                          <p align="center" class="descr">                           
+                            Quench your thirst and awaken your senses with our refreshing Cold Coffee – a delightful blend of rich, smooth coffee and creamy goodness served over ice. Sip on the perfect balance of bold espresso or smooth cold brew, mixed with your choice of creamy milk or indulgent cream for a velvety texture that's simply irresistible. Whether you're cooling off on a hot summer day or craving a pick-me-up any time of year, our Cold Coffee is the perfect way to treat yourself to a moment of caffeinated bliss. So go ahead, take a sip and experience the cool, invigorating taste of our Cold Coffee today!
+                          </p>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <h3 class="food" align="center"><b>Oreo Shake<hr width="75%" color="black"></b></h3>
+                        <figure align="center">
+                            <img src="oreo shake.png" alt="Oreo shake" width="50%">
+                            <figcaption>120 TK</figcaption>
+                        </figure>
+                        <hr width="85" color="black">
+                        <div class="mincard">
+                          <p align="center" class="descr">                           
+                            Indulge in pure bliss with our Oreo Shake – a heavenly concoction of creamy vanilla ice cream blended with crushed Oreo cookies, resulting in a lusciously thick and irresistibly sweet treat. Each sip is a symphony of flavors, with the classic combination of rich chocolate cookies and smooth ice cream tantalizing your taste buds. Topped with whipped cream and garnished with additional Oreo crumbles for that extra touch of decadence, our Oreo Shake is the ultimate indulgence for any dessert lover. So why wait? Treat yourself to a taste of paradise and experience the pure joy of our Oreo Shake today!
+                          </p>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <h3 class="food" align="center"><b>Mango Shake<hr width="75%" color="black"></b></h3>
+                        <figure align="center">
+                            <img src="Mango shake.png" alt="Mango shake" width="50%">
+                            <figcaption>140 TK</figcaption>
+                        </figure>
+                        <hr width="85" color="black">
+                        <div class="mincard">
+                          <p align="center" class="descr">                           
+                            Transport yourself to a tropical paradise with our Mango Shake – a refreshing blend of luscious ripe mangoes and creamy goodness that's sure to brighten your day. Made with fresh, juicy mangoes, our shake is bursting with natural sweetness and vibrant flavor. Blended to perfection with creamy milk and a touch of sweetness, it's the perfect balance of fruity goodness and creamy indulgence. Served ice-cold and garnished with a slice of mango for an extra touch of freshness, our Mango Shake is the ultimate thirst-quencher on a hot day. So go ahead, sip your way to paradise and treat yourself to the sunny taste of our Mango Shake today!
+                          </p>
+                        </div>
+                    </article>
+                </div>
+                <br>                             
+        </section>
+        <section id="order">
+            
+            <div id="frorder" align="center">
+                <h2 align="center" style="font-size: 45px;">Order Now!!!</h2>
+
+                <div id="forlabelling">
+                    
+                    <div class="rows">
+                        <form class="card2">
+                            <div class="left">
+                                <label><h3>Burgers:</h3></label><br>
+                                <input type="checkbox"> Veggie burgers <input type="number" min="1" max="10"><br>
+                                <input type="checkbox"> Chicken Burgers <input type="number" min="1" max="10"><br>
+                                <input type="checkbox"> Beef burgers <input type="number" min="1" max="10"><br>
+                                <input type="checkbox"> Ham burgers <input type="number" min="1" max="10"><br>
+                                <input type="checkbox"> Cheese burgers <input type="number" min="1" max="10"><br>
+                                <input type="checkbox"> Double Decker burgers <input type="number" min="1" max="10"><br>
+                            </div>
+                        </form>
+                        <form class="card2">
+                            <div class="left">
+                                <label><h3>Fries</h3></label><br>
+                                <input type="checkbox"> French Fries <input type="number" min="1" max="5"><br>
+                                <input type="checkbox"> Chicken Nuggets <input type="number" min="1" max="5"><br>
+                                <input type="checkbox"> Fish Fingers <input type="number" min="1" max="5"><br>
+                                <input type="checkbox"> Onion Rings <input type="number" min="1" max="5"><br>
+                                <input type="checkbox"> Crispy Chicken <input type="number" min="1" max="5"><br>  
+                            </div>
+                        </form>
+                        <form class="card2">
+                            <div class="left">
+                                <label><h3>Drinks</h3></label><br>
+                                <input type="checkbox"> Iced Cold Coffee <input type="number" min="1" max="5"><br>
+                                <input type="checkbox"> Mango Shake <input type="number" min="1" max="5"><br>
+                                <input type="checkbox"> Oreo Shake <input type="number" min="1" max="5"><br>
+                            </div>  
+                        </form>
+                        
+                    </div>
+                    <br>
+                    <form align="center">
+                        <textarea rows="10" cols="70" placeholder="Any additional Info?"></textarea><br>
+                        <input type="submit" value="ORDER">
+                            
+                    </form>
+                </div>
+                
+
+            </div>
+
+        </section>
+
+
+      </main>
+      <br>
+      
+      <footer align="right" style="color: wheat">
+         The Burger Palace
+      </footer>
+
+    </body>
+</html>
