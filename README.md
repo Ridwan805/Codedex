@@ -1,2 +1,2 @@
 # Codedex
-the projects in codedex
+the projects of codedex
